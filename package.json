@@ -1,0 +1,40 @@
+{
+  "name": "kodeapiv1",
+  "version": "1.0.0",
+  "description": "Kode API Node with postgresql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.codiis.oneappplus.in/KODE1.0/KODENodeApi.git"
+  },
+  "author": "kode",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http-status": "^1.5.2",
+    "is-valid-uuid-v4": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "morgan": "^1.10.0",
+    "node-device-detector": "^2.0.4",
+    "node-schedule": "^2.1.0",
+    "nodemon": "^2.0.16",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.20.1"
+  }
+}

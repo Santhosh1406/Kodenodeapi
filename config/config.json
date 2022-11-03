@@ -1,0 +1,54 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Codiis@123",
+    "database": "kode_db",
+    "host": "172.105.37.58",
+    "port": 5432,
+    "dialect": "postgres",
+    "schema": "college"
+  },
+  "local": {
+    "username": "postgres",
+    "password": "codiis@123",
+    "database": "uat_diis_db",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
+    "schema": "college"
+  },
+  "devlive": {
+    "username": "postgres",
+    "password": "Codiis@123",
+    "database": "dev_kode",
+    "host": "45.79.121.65",
+    "port": 5432,
+    "dialect": "postgres",
+    "schema": "college"
+  },
+  "testlive": {
+    "username": "postgres",
+    "password": "Codiis@123",
+    "database": "test_kode_college",
+    "host": "45.79.121.65",
+    "port": 5432,
+    "dialect": "postgres",
+    "schema": "college"
+  },
+  "srmlive": {
+    "username": "postgres",
+    "password": "Codiis@123",
+    "database": "srm_kode_college",
+    "host": "45.79.121.65",
+    "port": 5432,
+    "dialect": "postgres",
+    "schema": "college"
+  },
+  "Management": {
+    "userName": "ashif",
+    "password": "123456",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
